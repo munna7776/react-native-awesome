@@ -72,6 +72,7 @@ function App(): React.JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Text>My name is Munna Kumar Barnwal</Text>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
