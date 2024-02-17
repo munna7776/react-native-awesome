@@ -2,6 +2,7 @@ import {View, Text, SafeAreaView, ScrollView, StyleSheet} from 'react-native';
 import React from 'react';
 import FlatCard from './components/FlatCard';
 import ElevatedCard from './components/ElevatedCard';
+import FancyCard from './components/FancyCard';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
           <Text style={styles.appHeadingText} >Learning React Native</Text>
         <FlatCard />
         <ElevatedCard />
+        <FancyCard />
       </ScrollView>
     </SafeAreaView>
   );
@@ -18,7 +20,7 @@ const App = () => {
 const styles = StyleSheet.create({
   parentContainer: {
     backgroundColor: "#414141",
-    height: "100%"
+    height: "auto",
   },
   appHeadingText: {
     textAlign: "center",
