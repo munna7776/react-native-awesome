@@ -33,7 +33,8 @@ const styles = StyleSheet.create({
         textAlign: "center",
         fontSize: 17,
         lineHeight: 19,
-        fontWeight: "500"
+        fontWeight: "500",
+        color: "#fff"
     },
     container: {
         flex: 1,
